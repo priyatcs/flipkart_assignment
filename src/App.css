@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+  width: 100%;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 64px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #282c34; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: auto;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.argo-logo {
+  width: 49px;
+  height: 65px;
+}
+
+/*mine*/
+.container {
+  margin-left: 64px;
+  display: flex;
+  width: 94%;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgb(165, 156, 156);
+  height: 20%;
+}
+
+.container > div {
+  padding: 9px;
+  text-align: right;
+}
+
+.workflow2 {
+  /* margin-left: auto; */
+  /* align-self: flex-end; */
+  font-weight: 600;
+  color: rgb(30, 30, 223);
+  font-size: 20px;
+  flex: 1;
+}
+.worflow1 {
+  font-size: 10px;
+  flex: 1;
+}
